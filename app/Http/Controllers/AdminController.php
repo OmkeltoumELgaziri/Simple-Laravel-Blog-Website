@@ -19,6 +19,7 @@ class AdminController extends Controller
 
 public function index()
 {
+    
     $post= Post::where('post_staus','=','active')->get();
 
     if(Auth::id())

@@ -11,6 +11,10 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
+
+  @include('site_icon.myicon')
+    
+  
   <style>
     body {
       margin: 0;

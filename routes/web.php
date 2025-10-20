@@ -19,6 +19,12 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/',[HomeController::class,'homepage']);
 
+
+
+/*Route::get('begone-cache','AdminController@begoneCache');*/
+
+
+
 Route::get('/home',[AdminController::class, 'index'])->name('home');
 
 Route::get('/post_page',[Admincontroller::class,'post_page']);

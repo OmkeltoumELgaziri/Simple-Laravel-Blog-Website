@@ -3,6 +3,8 @@
   <head> 
     @include('admin.css')
 
+    
+    @include('site_icon.myicon')
 
   </head>
   <body>

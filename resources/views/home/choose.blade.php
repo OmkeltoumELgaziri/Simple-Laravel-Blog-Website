@@ -7,6 +7,10 @@
 
 
 
+  @include('site_icon.myicon')
+    
+  
+
   <style>
     body {
       margin: 0;

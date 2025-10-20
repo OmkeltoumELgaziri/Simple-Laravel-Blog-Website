@@ -6,6 +6,8 @@
   <base href="/public">
     @include('admin.css')
 
+    
+    @include('site_icon.myicon')
 
          <style type="text/css">
 

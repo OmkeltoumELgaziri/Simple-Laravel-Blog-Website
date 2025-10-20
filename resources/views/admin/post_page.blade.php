@@ -3,6 +3,8 @@
 <head> 
     @include('admin.css')
 
+    
+    @include('site_icon.myicon')
     <style>
         /* =============== GLOBAL STYLES =============== */
         body {
